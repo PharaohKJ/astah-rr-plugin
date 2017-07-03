@@ -1,0 +1,11 @@
+<configuration>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<Pattern>%d, [%t], %5p, %c{30}, %m, (%c{0}.java:%L\)%n</Pattern>
+		</encoder>
+	</appender>
+
+	<root level="${rootLevel:-DEBUG}">
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>

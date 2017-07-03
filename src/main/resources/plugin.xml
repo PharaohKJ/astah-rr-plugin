@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<extension point="com.change_vision.astah.ui.actionSets">
+<!--		<actionSet
+			label="Hazard"
+			visible="true"
+			id="com.example.actionSet">
+			<action
+				label="Hazard"
+				class="com.example.action.CreateHazardAction"
+				menubarPath="tool/system_property"
+				id="com.example.action.CreateHazardAction">
+			</action>
+		</actionSet>-->
+	</extension>
+	<extension point="com.change_vision.astah.ui.view">
+		<view id="xyz.dskow.astah_rr_plugin.view.CodeView" type="extraTab" class="xyz.dskow.astah_rr_plugin.view.CodeView" />
+	</extension>
+</plugin>
